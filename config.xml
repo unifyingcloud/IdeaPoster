@@ -5,7 +5,7 @@
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "com.unifyingcloud.ideaposter"
         versionCode = "10" 
-        version     = "1.0.0" >
+        version     = "3.0.0" >
  <name>Quotes IdeaPoster</name>
 
     <description>
@@ -16,5 +16,5 @@
    Unifying cloud
     </author>
   <preference name="permissions" value="none" />
-<gap:splash src="splash.png" />
+<gap:splash src="splash.png" gap:platform="android" width="320" height="480" />
 </widget>
